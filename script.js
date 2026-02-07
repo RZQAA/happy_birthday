@@ -223,11 +223,11 @@ function startTypewriter() {
     const messageContent = document.querySelector('.message-content');
     if (!messageContent) return;
     
-    const fullMessage = `Hi,
+    const fullMessage = ` hiiii Flowerr azzahra putri stevya 
 
-Happy Birthday!
+Happy Birthday sayanggggkuuuuu cintaaakkkkuuuuuuu!
 
-Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
+ Happy Birthday sayangggg Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.
 
 Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).
 
@@ -266,7 +266,7 @@ function skipTypewriter() {
         clearInterval(typewriterInterval);
         const messageContent = document.querySelector('.message-content');
         if (messageContent) {
-            const fullMessage = `Hi Cel,<br><br>Happy Birthday!<br><br>Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).<br><br>I love you so much! 💕`;
+            const fullMessage = `Hiii Flowerr azzahra putri stevya,<br><br>Happy Birthday sayangggg Hari ini aku pengen kamu ngerasain semua hal positif dan keajaiban yang cuma bisa didapetin kalo kamu ada di dunia ini. Semoga segala keinginanmu tercapai, apalagi yang kocak-kocak dan gak biasa, karena kamu tuh unik banget! Aku selalu percaya kalau kamu bisa melewati semua tantangan dengan kekuatan dan semangat yang luar biasa.<br><br>Terima kasih udah jadi bagian hidup aku yang paling berharga. Kamu bener-bener bikin hari-hari aku jadi lebih berarti dan penuh warna. Semoga di tahun yang baru ini, kamu makin bahagia, makin sukses, dan tentunya makin cantik (walaupun udah cantik banget sih!).I love you so much! 💕`;
             messageContent.innerHTML = fullMessage;
             isTyping = false;
             messageContent.scrollTop = messageContent.scrollHeight;
@@ -330,28 +330,28 @@ function startPhotoShow() {
             image: './images/photo2.jpg'
         },
         {
-            text: 'Adventure Time 🌟',
+            text: 'kamu mode kacamata canttiiiikkk 😎',
             image: './images/photo3.jpg'
         },
         {
-            text: 'Cozy Together ❤️',
-            image: './images/photo4.jpg'
+            text: 'fotbar pertama kita ❤️',
+            image: './images/photo 9.jpeg'
         },
         {
-            text: 'Sweet Memories 🥰',
-            image: './images/photo5.jpg'
+            text: 'Sweet Memories, first flower 🥰',
+            image: './images/photo 11.jpeg'
         },
         {
-            text: 'Laugh Together 😂',
-            image: './images/photo6.jpg'
+            text: 'fotbar kedua kita 💕',
+            image: './images/photo 10.jpeg'
         },
         {
-            text: 'Perfect Day ☀️',
+            text: 'cantikkkk bangeeetttt 😍',
             image: './images/photo7.jpg'
         },
         {
             text: 'Love Forever 💖',
-            image: './images/photo8.jpg'
+            image: './images/photo 12.jpeg'
         }
     ];
     
